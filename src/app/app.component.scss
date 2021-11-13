@@ -1,0 +1,15 @@
+@import "./shared/variables.scss";
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+
+  &__logo {
+    width: 160px;
+  }
+}
+
+#home, #bio, #portfolio, #contact {
+  height: 100vh;
+  background-color: red;
+}
